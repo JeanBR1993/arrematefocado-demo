@@ -13,12 +13,13 @@ Comprar imóvel em leilão em SP exige monitorar dezenas de sites de leiloeiros,
 ## O que o sistema faz
 
 **Coleta e organização**
-- Monitoramento automatizado de **70+ fontes de leiloeiros** (Caixa incluída), com pipeline diário de extração, saneamento e estruturação dos dados
-- **~2.400 lotes ativos** georreferenciados em mapa interativo com as **171 estações de metrô/trem** da cidade
-- Documentos do leilão (edital, laudo, matrícula) organizados por imóvel
+- Monitoramento automatizado de **70+ fontes de leiloeiros** (Caixa incluída), com pipeline diário de extração, saneamento e estruturação dos dados, otimização de custos no uso de diferentes métodos para ETL.
+- **~2.400 lotes ativos** georreferenciados em mapa interativo com as **171 estações de metrô/trem** da cidade de São Paulo
+- Documentos do leilão (edital, laudo, matrícula) organizados por imóvel.
+- 
 
 **Avaliação de Mercado por ML** — o coração do produto
-- LightGBM treinado em **~277 mil transações reais** do ITBI da Prefeitura de São Paulo (dados públicos), com **janela flutuante de 4 anos**
+- LightGBM treinado em **~277 mil transações reais**, com **janela flutuante de 4 anos**
 - Cada imóvel recebe valor central + **banda de confiança de 70% (conformal prediction)** — estimativa honesta, não número mágico
 - Métricas públicas na interface: **R² 0,81 · MAPE 22,4%**
 - **Retreino mensal automatizado** com gate de regressão: se as métricas piorarem, o deploy é bloqueado
