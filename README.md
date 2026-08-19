@@ -23,7 +23,7 @@ Comprar imóvel em leilão em SP exige monitorar dezenas de sites de leiloeiros,
 - Métricas públicas na interface: **R² 0,81 · MAPE 22,4%**
 - **Retreino mensal automatizado** com gate de regressão: se as métricas piorarem, o deploy é bloqueado
 
-**Avaliação de Mercado** — valor central + banda de confiança de 70% por imóvel (card ampliado; [ver screenshot completo da página](img/avaliacao-mercado.webp)):
+**Avaliação de Mercado** — valor central + banda de confiança de 70% por imóvel (card ampliado; [ver screenshot completo da página](img/avaliacao-mercado.png)):
 
 <img src="img/avaliacao-mercado-card.png" alt="Card de Avaliação de Mercado: valor central, banda de confiança e faixa mínimo/máximo" width="700">
 
