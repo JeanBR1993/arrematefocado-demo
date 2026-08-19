@@ -4,7 +4,7 @@
 >
 > **🔴 Em produção: [arrematefocado.com.br](https://arrematefocado.com.br)** — busca, mapa e calculadora de preço abertos, sem cadastro.
 
-![Home do ArremateFocado](img/home.png)
+![Home do ArremateFocado](img/home-v2.png)
 
 ## O problema
 
@@ -23,7 +23,9 @@ Comprar imóvel em leilão em SP exige monitorar dezenas de sites de leiloeiros,
 - Métricas públicas na interface: **R² 0,81 · MAPE 22,4%**
 - **Retreino mensal automatizado** com gate de regressão: se as métricas piorarem, o deploy é bloqueado
 
-![Card de Avaliação de Mercado com banda de confiança](img/avaliacao-mercado.webp)
+**Avaliação de Mercado** — valor central + banda de confiança de 70% por imóvel (card ampliado; [ver screenshot completo da página](img/avaliacao-mercado.webp)):
+
+<img src="img/avaliacao-mercado-card.png" alt="Card de Avaliação de Mercado: valor central, banda de confiança e faixa mínimo/máximo" width="700">
 
 **Produto completo**
 - Assinatura (Stripe) com trial, calculadora pública de preço de mercado, autenticação, SEO técnico (sitemap dinâmico, JSON-LD, OG images automáticas)
