@@ -25,7 +25,7 @@ Comprar imóvel em leilão em SP exige monitorar dezenas de sites de leiloeiros,
 
 **Avaliação de Mercado** — valor central + banda de confiança de 70% por imóvel (card ampliado; [ver screenshot completo da página](img/avaliacao-mercado.png)):
 
-<img src="img/avaliacao-mercado-card.png" alt="Card de Avaliação de Mercado: valor central, banda de confiança e faixa mínimo/máximo" width="700">
+<img src="img/avaliacao-mercado.png" alt="Card de Avaliação de Mercado: valor central, banda de confiança e faixa mínimo/máximo" width="700">
 
 **Produto completo**
 - Assinatura (Stripe) com trial, calculadora pública de preço de mercado, autenticação, SEO técnico (sitemap dinâmico, JSON-LD, OG images automáticas)
